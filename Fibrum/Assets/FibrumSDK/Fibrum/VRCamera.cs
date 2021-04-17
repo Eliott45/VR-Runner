@@ -164,7 +164,7 @@ public class VRCamera : MonoBehaviour {
 		} */
 
 
-		if( transform.FindChild("VRCamera") ) vrCameraLocal = transform.FindChild("VRCamera").transform;
+		if( transform.Find("VRCamera") ) vrCameraLocal = transform.Find("VRCamera").transform;
 		else vrCameraLocal = transform;
 
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;

@@ -222,9 +222,9 @@ public class VRInputModule : BaseInputModule {
 					}
 					else if( Time.realtimeSinceStartup-lookTimer>0 )
 					{
-						if( canvasGO.transform.FindChild("VRprogressBar")!=null )
+						if( canvasGO.transform.Find("VRprogressBar")!=null )
 						{
-							circleProgressBar = canvasGO.transform.FindChild("VRprogressBar").gameObject.GetComponent<Image>();
+							circleProgressBar = canvasGO.transform.Find("VRprogressBar").gameObject.GetComponent<Image>();
 							circleProgressBar.fillAmount = 0f;
 							circleProgressBar.rectTransform.SetAsLastSibling();
 							if( circleProgressBar.GetComponent<CanvasGroup>()==null )
@@ -290,9 +290,9 @@ public class VRInputModule : BaseInputModule {
 			}
 			if( cursor == null )
 			{
-				if( canvasGO.transform.FindChild("VRpointer")!=null )
+				if( canvasGO.transform.Find("VRpointer")!=null )
 				{
-					cursor = canvasGO.transform.FindChild("VRpointer").gameObject.GetComponent<RectTransform>();
+					cursor = canvasGO.transform.Find("VRpointer").gameObject.GetComponent<RectTransform>();
 					cursor.SetAsLastSibling();
 				}
 				else
