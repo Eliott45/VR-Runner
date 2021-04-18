@@ -15,7 +15,7 @@ public class ObstacleKiller : MonoBehaviour
         {
             if(_player.position.z > obstacles[i].position.z + _killDistanceZ)
             {
-                Destroy(obstacles[i].gameObject);
+                Destroy(obstacles[i].gameObject); 
             }
         }
     }
