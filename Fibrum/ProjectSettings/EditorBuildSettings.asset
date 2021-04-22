@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameLevel.unity
     guid: 5c0c254b11754514989b06cfa3994c37
+  - enabled: 1
+    path: Assets/Scenes/ReStartMenu.unity
+    guid: 86cc0917a56276f49b0bacbf2fcc2907
   m_configObjects: {}

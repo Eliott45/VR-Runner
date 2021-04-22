@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CharController : MonoBehaviour
 {
@@ -33,5 +35,13 @@ public class CharController : MonoBehaviour
         dir.z = _speed;
         _player.velocity = dir;
 
+    }
+
+    public void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag == "Obstacle")
+        {
+            SceneManager.LoadScene("ReStartMenu");
+        }
     }
 }
