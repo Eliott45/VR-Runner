@@ -90,6 +90,7 @@
     <Compile Include="Assets\FibrumSDK\FibrumLoader\SceneAnims\phone_Renderer_enabled.cs" />
     <Compile Include="Assets\Scripts\ObstacleKiller.cs" />
     <Compile Include="Assets\Scripts\Zombie.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FibrumSDK\Fibrum\Mobile Transparent Vertex Color.shader" />
