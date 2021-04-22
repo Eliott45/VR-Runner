@@ -64,9 +64,11 @@
     <Compile Include="Assets\FibrumSDK\Fibrum\Joystick\JoystickSetupParameters.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\VRCamera.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\ChangeCameraEye.cs" />
+    <Compile Include="Assets\Scripts\CharController.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\VRSensor.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\SetupUI\FibUIAppearScript.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\Joystick\JoystickSetup.cs" />
+    <Compile Include="Assets\Scripts\LevelGenerator.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\FibrumController.cs" />
     <Compile Include="Assets\FibrumSDK\FibrumLoader\FibrumPhoneStart.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\VR_GUI\VR_canvas.cs" />
@@ -80,15 +82,14 @@
     <Compile Include="Assets\FibrumSDK\Fibrum\VR_GUI\VR_canvasUIcontroller.cs" />
     <Compile Include="Assets\FibrumSDK\FibrumLoader\GameDisplayScript.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\VRCalibration.cs" />
+    <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\VRSetupGUI.cs" />
     <Compile Include="Assets\FibrumSDK\Fibrum\UIpointer\VR_UIpointer.cs" />
     <Compile Include="Assets\FibrumSDK\Scenes\demoMaterials\JoystickSetupDemo.cs" />
     <Compile Include="Assets\FibrumSDK\FibrumLoader\SceneAnims\Main_Camera_GameDisplayScript_texT.cs" />
     <Compile Include="Assets\FibrumSDK\FibrumLoader\SceneAnims\phone_Renderer_enabled.cs" />
-    <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
     <Compile Include="Assets\Scripts\ObstacleKiller.cs" />
-    <Compile Include="Assets\Scripts\LevelGenerator.cs" />
-    <Compile Include="Assets\Scripts\CharController.cs" />
+    <Compile Include="Assets\Scripts\Zombie.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FibrumSDK\Fibrum\Mobile Transparent Vertex Color.shader" />

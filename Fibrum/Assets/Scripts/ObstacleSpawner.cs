@@ -44,7 +44,7 @@ public class ObstacleSpawner : MonoBehaviour
             _spawnedObstacles.Add(Instantiate(newObstacle, new Vector3(
                 Random.Range(_sergmentWidth.x, _sergmentWidth.y),
                 0, _lastPos.z + _spawnDistance),
-                Quaternion.identity));
+                Quaternion.Euler(0,180,0)));
         }
     }
 }
